@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTOP Endpoint</title>
+</head>
+<body>
+  <h1>HTOP Endpoint</h1>
+  <p>Name: John Doe</p>
+  <p>Username: codespace</p>
+  <p>Server Time (IST): 2025-04-10 11:58:00</p>
+  <pre>
+  top - 11:37:27 up 51 min, 8 users, load average: 0.01, 0.06, 0.14
+  Tasks: 33 total, 1 running, 32 sleeping, 0 stopped, 0 zombie
+  %Cpu(s): 0.0 us, 0.0 sy, 0.0 ni, 100.0 id, 0.0 wa, 0.0 hi, 0.0 si, 0.0 st
+  MiB Mem : 15981.0 total, 971.8 free, 2303.9 used, 12785.3 buff/cache
+  MiB Swap: 0.0 total, 0.0 free, 0.0 used. 13268.9 avail Mem
+  
+  PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND
+  1 codespa+ 1 136 64P 640 5 0.0 0.0 0:00.08 docker-init
+  7 codespa+ 20 7236 1664 1664 S 0.0 0.0 0:00.01 sleep
+  35 root 12196 3352 2432 S 9.9 0.0 0:00.00 sshd
+  421 codespa+ 2ª 2616 1408 1488 S 0.0 0.0 0:00.01 sh
+  447 root 20 2616 1408 1488 S 0.0 0.0 0:00.00 sh
+  609 codespa+ 2624 1536 1536 S 0.0 0.0 0:00.00 sh
+  618 codespa+ 11.3g 181888 47488 S 0.0 0.6 0:18.87 pode
+  </pre>
+</body>
+</html>
